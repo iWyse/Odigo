@@ -1,0 +1,82 @@
+.discover
+	padding-top: 200px
+	color: #fff
+	&-header 
+		max-width: 619px
+		font-weight: 500
+		font-size: 50px
+		line-height: 60px
+	&-desc 
+		padding-top: 25px
+		max-width: 546px
+		font-weight: normal
+		font-size: 16px
+		line-height: 24px
+.form 
+	padding-top: 65px
+	display: flex
+	flex-wrap: wrap
+	.input-one,
+	.input-two
+		position: relative
+	input[type="text"]
+		margin-right: 61px
+		width: 230px
+		background: none
+		border: none
+		outline: none
+		&[placeholder]
+			border-bottom: 2px solid #BFC0C5
+			color: #fff
+			padding: 0px 20px 22px 45px
+			font-weight: 500
+			font-size: 18px
+			line-height: 24px
+	.form-input-one:before,
+	.form-input-two:before 
+		content: ""
+		display: block
+		position: absolute 
+		width: 20px
+		height: 20px
+		top: 5px
+		left: 5px
+		border-radius: 50%
+		border: 2px solid #FFFFFF
+		box-sizing: border-box
+	.search-btn 
+		border: none
+		text-transform: uppercase 
+		padding: 15px 35px 15px 35px
+		background: #1B7DFF
+		font-weight: 500
+		font-size: 24px
+		line-height: 29px
+input::-moz-placeholder,
+input::-webkit-input-placeholder 
+	color: #fff
+@media (max-width: 911px)
+	.search-btn 
+		margin-top: 20px
+@media (max-width: 748px)
+	.form 
+		flex-direction: column
+		text-align: center
+		input[type="text"]
+			margin-top: 80px
+			margin-left: auto
+			margin-right: auto
+			&[placeholder]
+				text-align: center
+				padding: 0 0px 20px 0px
+		.search-btn 
+			margin: 40px auto
+			text-align: center
+		.form-input-one:before,
+		.form-input-two:before 
+			display: none
+
+		
+
+		
+	

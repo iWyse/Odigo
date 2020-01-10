@@ -1,0 +1,115 @@
+.pref 
+	padding-bottom: 60px
+	min-height: 900px
+	&-block 
+		padding-top: 100px
+		display: flex
+		flex-direction: row
+		justify-content: space-around
+		&-img 
+			padding-right: 20px
+		&-desc 	
+			padding-right: 47px
+			padding-left: 100px
+			margin: auto
+			&__caption 
+				font-weight: 500
+				font-size: 30px
+				line-height: 40px
+				color: #102746
+			&__text 
+				padding-top: 85px
+				max-width: 519px
+				color: #102746
+				font-weight: normal
+				font-size: 16px
+				line-height: 24px
+				padding-bottom: 60px
+			&__href 
+				color: #006DFE
+				cursor: pointer
+				img 
+					padding-left: 28px
+					vertical-align: center
+.feat
+	&-block
+		padding-top: 100px
+		display: flex
+		flex-direction: row
+		justify-content: space-around
+		&-img 
+		&-desc 
+			margin: auto
+			padding-left: 47px
+			padding-right: 125px
+			&__caption 
+				max-width: 357px
+				font-weight: 500
+				font-size: 30px
+				line-height: 40px
+				color: #102746
+			&__text 
+				padding-top: 85px
+				max-width: 519px
+				color: #102746
+				font-weight: normal
+				font-size: 16px
+				line-height: 24px
+				padding-bottom: 60px
+			&__href 
+				color: #006DFE
+				cursor: pointer
+				img 
+					padding-left: 28px
+					vertical-align: center
+
+
+@media (max-width: 1068px)
+	.pref 
+		
+		&-block 
+			flex-wrap: wrap
+			flex-direction: column
+			justify-content: center 
+			margin: auto
+			text-align: center
+			&-desc 
+				padding-left: 0
+				padding-right: 0
+				&__caption 
+					padding-top: 20px
+				&__text 
+					padding-top: 30px
+					padding-bottom: 30px
+			&-img 	
+				padding-right: 0
+				padding-left: 0
+				text-align: center
+				img 
+					max-width: 100%
+	.feat  
+		&-block 
+			padding-top: 50px
+			flex-wrap: wrap
+			flex-direction: column-reverse
+			justify-content: center 
+			margin: auto
+			text-align: center
+			&-desc 
+				padding-left: 0
+				padding-right: 0
+				&__caption 
+					padding-top: 20px
+					margin: auto
+					text-align: center
+					width: auto
+				&__text 
+					padding-top: 30px
+					padding-bottom: 30px
+			&-img 	
+				padding-left: 0
+				padding-right: 0
+				margin: auto
+				text-align: center
+				img 
+					max-width: 100%

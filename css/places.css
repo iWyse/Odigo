@@ -1,0 +1,19 @@
+.places {
+  padding-top: 50px;
+  min-height: 900px; }
+  .places-header {
+    padding-right: 30px;
+    position: relative;
+    color: #102746;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px; }
+    .places-header:before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 253px;
+      height: 3px;
+      top: 45px;
+      left: 0;
+      background-color: #006DFE; }

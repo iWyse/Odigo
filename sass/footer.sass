@@ -1,0 +1,60 @@
+.footer 
+	background-color: #0E1D28
+	padding-bottom: 100px
+	&-caption 
+		font-style: normal
+		font-weight: 500
+		font-size: 18px
+		line-height: 24px
+		color: #fff
+	&-nav 
+		font-weight: normal
+		font-size: 16px
+		line-height: 24px
+	&-wrapper 
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+	&-right 
+		display: flex
+		flex-wrap: wrap
+	&-logo 
+		margin: 10px
+		padding-top: 130px
+	&-col-1,&-col-2,&-col-3
+		padding-top: 120px
+		display: flex
+		flex-direction: column
+	&-col-1,&-col-2
+		padding-right: 140px
+
+@media (max-width: 769px)
+	.footer-logo 
+		padding-top: 50px
+	.footer-wrapper
+		text-align: center
+		justify-content: center
+	.footer
+		&-col-1,&-col-2
+			padding-right: 140px
+		&-col-1,&-col-2,&-col-3
+			padding-top: 10px
+@media (max-width: 579px)
+	.footer
+		&-col-1,&-col-2
+			padding-right: 90px
+@media (max-width: 479px)
+	.footer-right 
+		text-align: center
+		justify-content: center
+	.footer 
+		&-col-1,&-col-2
+			padding-right: 40px
+@media (max-width: 379px)
+	.footer 
+		&-col-1,&-col-2
+			padding-right: 20px
+@media (max-width: 350px)
+	.footer
+		&-col-1,&-col-2
+			padding-right: 10px
